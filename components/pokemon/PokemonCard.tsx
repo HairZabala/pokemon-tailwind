@@ -23,7 +23,7 @@ export const PokemonCard: FC<Props> = ({ pokemon }) => {
     //   {pokemon.name}
     // </div>
     <div onClick={handleClick}>
-      <div className="p-1 shadow-lg flex flex-col rounded-lg border border-gray-200 hover:scale-105 ease-in-out duration-700">
+      <div className="p-1 shadow-lg flex flex-col rounded-lg border border-gray-200 hover:scale-105 ease-in-out duration-300">
         <Image src={img} width={140} height={140} alt="" />
         <div className="mt-4 flex justify-between px-4">
           <div className="capitalize">{name}</div>
